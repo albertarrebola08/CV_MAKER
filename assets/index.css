@@ -1,0 +1,162 @@
+
+
+.container-fluid{
+    display: flex;
+    height: 100%;
+    justify-items: center;
+    
+}
+
+body{
+    background-image: url('imgFondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.BOX{
+    font-family: 'Concert One';
+    margin-top: 20px;
+}
+.infoGeneralUser{
+    font-family: 'Raleway';
+    font-size: 14px;
+    padding:15px, 0, 15px, 0;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.BOX a{
+    color: black;
+}
+
+/* login page */
+
+.notenscompte{
+    text-decoration: none;
+}
+form{
+    font-family: 'Concert One';
+}
+.containerLogin a{
+    font-weight: 200;
+    text-decoration: none;
+}
+.messageError{
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    border: solid 3px black;
+}
+
+
+/* CV PAGE imported styles*/
+
+.header_box{
+    border-bottom: 3px solid lightgray;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+
+}
+.titulo_cv{
+    font-size: 24px;
+}
+.lista-habilidades{
+    
+}
+.colizq li{
+    list-style: none;
+    display: flex;
+    justify-content:start;
+    
+    align-items: center;
+}
+.list_item{
+    margin-top: 8px;
+}
+
+.header{
+    height: 100px;
+    background-color: gray;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.img_perfil{
+    margin-top: -130px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-image: url('https://img.freepik.com/foto-gratis/retrato-hombre-caucasico-alegre_53876-13440.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: solid 5px gray;
+    margin-bottom: 60px;
+    margin-left: 0px;
+}
+
+.headerGeneral{
+    font-family: 'Concert One';
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100px;
+    align-items: center;
+}
+
+.row{
+    margin-top: 10px;
+}
+i{
+    margin-right: 10px;
+    color: gray;
+}
+.text-justify {
+    text-align: start;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+
+.place{
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+.curriculumA4{
+    
+    width: 75%;
+    margin: auto;
+    border: solid black 3px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;   
+    margin-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 90px;
+    font-size: 13px;
+}
+
+.btnLogout:hover{
+    border: solid 3px white;
+}
+.progress-bar{
+    background-color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+    .header{
+       display:flex;
+       justify-content: end;
+       padding-right: 50px;
+       
+    }
+  }
